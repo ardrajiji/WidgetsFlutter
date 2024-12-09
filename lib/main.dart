@@ -4,11 +4,14 @@ import 'package:flutterwidgets/view/animatedopacity.dart';
 import 'package:flutterwidgets/view/home.dart';
 import 'package:flutterwidgets/view/indexedstack.dart';
 import 'package:flutterwidgets/view/listtile.dart';
+import 'package:flutterwidgets/view/preferredSize.dart';
 import 'package:flutterwidgets/view/program.dart';
 import 'package:flutterwidgets/view/refreshindecator.dart';
 import 'package:flutterwidgets/view/safearea.dart';
 import 'package:flutterwidgets/view/selectabletext.dart';
+import 'package:flutterwidgets/view/sizedBox.dart';
 import 'package:flutterwidgets/view/switch.dart';
+import 'package:flutterwidgets/view/table.dart';
 
 void main() {
   runApp(const MyApp());
@@ -41,7 +44,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const DateTimePicker(),
+      home: const PreferredSizedWidget(),
     );
   }
 }
