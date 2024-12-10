@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutterwidgets/view/alertdialog.dart';
 import 'package:flutterwidgets/view/animatedopacity.dart';
+import 'package:flutterwidgets/view/floating_action_button.dart';
 import 'package:flutterwidgets/view/home.dart';
 import 'package:flutterwidgets/view/indexedstack.dart';
 import 'package:flutterwidgets/view/listtile.dart';
+import 'package:flutterwidgets/view/long_press_draggable.dart';
+import 'package:flutterwidgets/view/popup_menu_button.dart';
 import 'package:flutterwidgets/view/preferredSize.dart';
 import 'package:flutterwidgets/view/program.dart';
 import 'package:flutterwidgets/view/refreshindecator.dart';
@@ -44,7 +47,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const PreferredSizedWidget(),
+      home: const FloatingActionButtonWidget(),
     );
   }
 }
